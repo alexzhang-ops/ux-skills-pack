@@ -1,0 +1,8 @@
+{
+  "name": "ux-skills-pack",
+  "description": "iPadOS UX Design Agent — 快速生成互動式 HTML 原型，透過自然語言描述即可設計、迭代 Demo。包含使用者研究、設計規格、HTML 互動原型產出。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alex"
+  }
+}

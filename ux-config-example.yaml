@@ -1,0 +1,218 @@
+project:
+  name: "Booking"
+  slug: "booking"
+
+brand:
+  colors:
+    # === Core Brand ===
+    primary: "#F2971B"          # brand500 — 主品牌橙金色
+    primary_active: "#E68A0D"   # brand600
+    primary_light: "#FFF7EC"    # brand25 — 品牌淺底色
+    secondary: "#4099FF"        # blue500
+    secondary_active: "#328EF9" # blue600
+    accent: "#E68A0D"           # brand600
+
+    # === Text ===
+    text_primary: "#181D27"     # gray900 — 標題 / 主文字
+    text_secondary: "#414651"   # gray700 — 副文字
+    text_tertiary: "#535862"    # gray600 — 第三層文字
+    text_quaternary: "#717680"  # gray500 — 第四層文字
+    text_placeholder: "#717680" # gray500
+    text_disabled: "#A4A7AE"    # gray400
+    text_white: "#FFFFFF"
+
+    # === Foreground (icons, indicators) ===
+    fg_primary: "#181D27"       # gray900
+    fg_secondary: "#414651"     # gray700
+    fg_tertiary: "#535862"      # gray600
+    fg_quaternary: "#717680"    # gray500
+    fg_disabled: "#A4A7AE"     # gray400
+    fg_brand: "#F2971B"         # brand500
+
+    # === Background ===
+    background: "#FFFFFF"       # bgPrimary — 主背景 (白)
+    bg_active: "#FAFAFA"        # gray50
+    surface: "#FAFAFA"          # bgSecondary (gray50)
+    surface_subtle: "#FDFDFD"   # gray25
+    surface_active: "#F5F5F5"   # gray100
+    bg_tertiary: "#E9EAEB"     # gray200
+    bg_overlay: "#0A0D12"       # gray950 — 遮罩層
+    bg_disabled: "#F5F5F5"      # gray100
+    bg_brand_light: "#FFF7EC"   # brand25
+    bg_brand_subtle: "#FDEFDC"  # brand50
+    bg_brand_solid: "#F2971B"   # brand500
+
+    # === Border ===
+    border: "#D5D7DA"           # gray300 — borderPrimary
+    border_secondary: "#E9EAEB" # gray200
+    border_tertiary: "#F5F5F5"  # gray100
+    border_disabled: "#D5D7DA"  # gray300
+    border_brand: "#F2971B"     # brand500
+
+    # === Semantic / Status ===
+    destructive: "#E03837"      # red500
+    destructive_light: "#FFF2F2" # red25
+    destructive_bg: "#FFE4E4"   # red50
+    success: "#31B02B"          # green500
+    success_light: "#EBFAE9"    # green25
+    success_bg: "#D7F5D3"       # green50
+    error_border: "#E03837"     # red500
+    success_border: "#31B02B"   # green500
+
+    # === Button ===
+    btn_primary_bg: "#F2971B"        # brand500
+    btn_primary_border: "#F2971B"    # brand500
+    btn_primary_gray_bg: "#181D27"   # gray900
+    btn_secondary_gray_bg: "#414651" # gray700
+    btn_tertiary_gray_bg: "#FFFFFF"  # white (hollow)
+    btn_tertiary_gray_border: "#414651" # gray700
+    btn_quaternary_gray_bg: "#FFFFFF"
+    btn_quaternary_gray_border: "#D5D7DA" # gray300
+    btn_blue_bg: "#4099FF"           # blue500
+    btn_error_bg: "#E03837"          # red500
+
+    # === WACA 系統狀態色 (from WACAPOS) ===
+    waca_red: "#FA5750"         # 付款狀態
+    waca_green: "#239290"       # 出貨狀態
+    waca_blue: "#3E73D1"        # 訂單狀態
+
+  # === Color Palette (完整色階 for prototype) ===
+  palette:
+    brand: ["#FFF7EC","#FDEFDC","#FAD9AC","#F7C37B","#F5AD4B","#F3A233","#F2971B","#E68A0D","#D27C06","#BC6D01","#9C5A00","#704000"]
+    gray:  ["#FDFDFD","#FAFAFA","#F5F5F5","#E9EAEB","#D5D7DA","#A4A7AE","#717680","#535862","#414651","#252B37","#181D27","#0A0D12"]
+    red:   ["#FFF2F2","#FFE4E4","#F9CACA","#FFA5A5","#F56F6E","#EE5453","#E03837","#DC2F2E","#CD1918","#BB0705","#9E0200","#6F0100"]
+    green: ["#EBFAE9","#D7F5D3","#B4EAAC","#7DDC6F","#5DCD57","#3CBA36","#31B02B","#2CA326","#14890E","#087203","#056001","#034A00"]
+    blue:  ["#EBF5FF","#DBEDFF","#B6DBFF","#8CC2FF","#70B2FF","#50A1FF","#4099FF","#328EF9","#1B7BEA","#0968D4","#005BC2","#004A9E"]
+
+  typography:
+    heading_font: "PingFangTC-Semibold"
+    body_font: "PingFangTC-Regular"
+    medium_font: "PingFangTC-Medium"
+    number_font: "Helvetica"           # from WACAPOS — 金額/數字專用
+    number_font_bold: "Helvetica-Bold"
+    base_size: 16             # FontSizeS (Booking TextMd)
+    sizes:
+      sm: 16                  # FontSizeS — 小型內文
+      md: 18                  # FontSizeM — 預設內文
+      lg: 20                  # FontSizeL — 大型內文
+      xl: 24                  # FontSizeXL — 小標題
+      xxl: 32                 # FontSizeXXL — 大標題
+
+  corner_radius:
+    sm: 4                     # RadiusS — 小元件 (tag, badge)
+    md: 8                     # RadiusM — 預設 (按鈕、卡片、輸入框)
+    lg: 12                    # RadiusL — 大容器
+
+  border_width:
+    sm: 1                     # BordersS — 細線
+    md: 1.5                   # BordersM — 中等
+    lg: 2                     # BordersL — 預設按鈕/輸入框
+
+  shadow:
+    offset_x: 5
+    offset_y: -5
+    blur: 1
+    opacity: 0.2
+
+  animation:
+    button_tap: 0.05          # 按鈕縮放動畫
+    shimmer: 0.85             # Skeleton 載入動畫
+
+  style: "minimalism"
+
+  # === Button Styles (from WACAPOS) ===
+  button_styles:
+    confirm:                   # 實心確定 (橘)
+      bg: "#F2971B"
+      text: "#FFFFFF"
+      border: "none"
+    confirm_hollow:            # 空心確定 (橘)
+      bg: "#FFFFFF"
+      text: "#F2971B"
+      border: "#F2971B"
+    cancel:                    # 空心取消 (灰)
+      bg: "#FFFFFF"
+      text: "#616161"
+      border: "#BDBDBD"
+
+platform:
+  type: "iPad UIKit"
+  min_version: "iPadOS 15"
+  frameworks: [SnapKit, GRDB, SDWebImage, IQKeyboardManager]
+  architecture: "VIPER"
+  viewport:
+    breakpoint: 1100          # width >= 1100pt = large, < 1100pt = small
+    small: "iPad mini landscape (1133×744)"
+    large: "iPad Air/Pro 11\" (1194×834) ~ iPad Pro 12.9\" (1366×1024)"
+
+# === 現有頁面設計模式 (供 ux-design 產 prototype 時參考) ===
+ui_patterns:
+
+  # 主導航：左側垂直 SideTabBar + 右側內容區
+  navigation:
+    type: "side-tab-bar"
+    description: "左側固定垂直 Tab 列（icon + label），右側為動態內容區"
+    tabs:
+      - { name: "日曆", icon: "calendar", has_nav: true }
+      - { name: "預約", icon: "booking", has_nav: true }
+      - { name: "訂單", icon: "order", has_nav: true }
+      - { name: "帳務", icon: "billing", has_nav: false }
+      - { name: "掃描", icon: "scanner", has_nav: false }
+      - { name: "打卡", icon: "clock-in", has_nav: false }
+      - { name: "更多", icon: "more", has_nav: false }
+    features:
+      - "WACA logo 在 sidebar 底部"
+      - "Sidebar 可收合（NotificationCenter toggle）"
+      - "Child VC lazy-load + cache"
+
+  # 常用頁面佈局模式
+  page_layouts:
+    list_with_filter:
+      description: "頂部 Segmented/Filter Bar + 下方 TableView 列表"
+      used_in: ["訂單列表", "優惠券列表", "帳務列表"]
+      structure: "PageSegmentedControlView → Filter buttons → TableView (DiffableDataSource)"
+
+    catalog_grid:
+      description: "頂部分類選擇 + 下方產品格狀列表"
+      used_in: ["預約選品", "加購選項"]
+      structure: "ProductCategoryHeaderView → CollectionView (CompositionalLayout + DiffableDataSource)"
+
+    right_side_drawer:
+      description: "從右側滑入的面板（400pt 預設寬度），背景半透明遮罩"
+      used_in: ["付款選單", "結帳流程", "詳情面板"]
+      structure: "RightSidePresentationController + dimmed overlay"
+
+    modal_form:
+      description: "置中彈窗（.formSheet），用於確認、警告、簡單輸入"
+      used_in: ["PromptViewController", "InputItemViewController"]
+      structure: "icon + title + message + horizontal action buttons"
+
+    calendar_multi_mode:
+      description: "多模式日曆（日/週/月），CompositionalLayout + decoration views"
+      used_in: ["接待日曆", "任務日曆"]
+      structure: "CalendarLayoutFactory → day/week/month layouts"
+
+  # 共用 UI 元件
+  shared_components:
+    - "TitleBarView — 頁面標題列（title + subtitle，自動調整 safeArea）"
+    - "PageSegmentedControlView — 水平滾動 Tab 切換"
+    - "LoadingView — 全頁 spinner overlay（showLoading / hideLoading）"
+    - "PromptViewController — 統一彈窗（必須透過 PromptFactory 建立）"
+
+  # 導航方式
+  navigation_methods:
+    push: "NavigationController 內頁面推進（has_nav: true 的 tab 內）"
+    present_modal: "formSheet 彈窗（確認、警告、表單）"
+    present_right_side: "右側滑入面板（RightSideTransitioningDelegate）"
+    root_transition: "AppRouter 切換根頁面（Login → Main，cross-dissolve）"
+
+language: "zh-TW"
+
+constraints:
+  - "UIKit only, no SwiftUI"
+  - "VIPER architecture (Builder → View → Presenter → Interactor → Router)"
+  - "DiffableDataSource for all lists"
+  - "PromptFactory for all user-facing messages"
+  - "@MainActor for main thread, no DispatchQueue.main"
+  - "SDWebImage for remote images"
+  - "SnapKit for all constraints"
