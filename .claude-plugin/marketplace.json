@@ -4,14 +4,14 @@
     "name": "Alex"
   },
   "metadata": {
-    "description": "iPadOS UX Design Agent — Interactive HTML prototypes, user research, design specs."
+    "description": "UX Design Agent — Interactive HTML prototypes, user research, and design specs for any project."
   },
   "plugins": [
     {
       "name": "ux-skills-pack",
       "source": "./",
-      "description": "iPadOS UX Design Agent — 快速生成互動式 HTML 原型，透過自然語言描述即可設計、迭代 Demo。",
-      "version": "1.0.0",
+      "description": "UX Design Agent — 理解需求、生成互動式 HTML 原型。跨 Session 設計接續。",
+      "version": "2.0.0",
       "author": {
         "name": "Alex"
       }
